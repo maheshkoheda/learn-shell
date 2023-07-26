@@ -26,8 +26,10 @@ echo -e "\e[36mMESSAGE\e[0m"
 #&>>
 # >/dev/null Nullify the output that goes to this file
 
-
-
+# To learn any language then Variables Functions Conditions Loops
+#Variables - For repetetive work declare a variable and use all places and change one to effect all.
+#It can be any datatype but shell doesnot have any datatypes. If space in data then doublequote example "10 20"
+#Access variable with $ as prefix and also {}. Ex: $var or ${var}.
 
 
 
