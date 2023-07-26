@@ -24,6 +24,7 @@ echo -e "\e[36mMESSAGE\e[0m"
 #>>Append to previous content
 #&> Sends output and error to same file
 #&>>
+# >/dev/null Nullify the output that goes to this file
 
 
 
