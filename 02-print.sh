@@ -17,6 +17,14 @@ echo -e "\e[34mMESSAGE\e[0m"
 echo -e "\e[35mMESSAGE\e[0m"
 echo -e "\e[36mMESSAGE\e[0m"
 
+#Symbols and usage
+#&
+#<Input
+#>Overwrite previous content (Output)
+#>>Append to previous content
+#&> Sends output and error to same file
+#&>>
+
 
 
 
