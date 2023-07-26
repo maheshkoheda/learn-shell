@@ -20,7 +20,7 @@ echo -e "\e[36mMESSAGE\e[0m"
 #Symbols and usage
 #&
 #<Input
-#>Overwrite previous content (Output)
+#>Overwrite previous content (Output will not be shown)
 #>>Append to previous content
 #&> Sends output and error to same file
 #&>>
