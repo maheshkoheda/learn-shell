@@ -32,6 +32,9 @@ echo -e "\e[36mMESSAGE\e[0m"
 #It can be any datatype but shell doesnot have any datatypes. If space in data then doublequote example "10 20"
 #Access variable with $ as prefix and also {}. Ex: $var or ${var}.
 
+#Exit status
+#Every command we run on shell returns status and ranges from 0-255.
+#success(0) and failure (1-255)
 
 
 
