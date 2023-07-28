@@ -7,7 +7,7 @@ echo a is $a
 
 #Substitution variables
 #command substitution
-DATE = $(date)
+DATE=$(date)
 echo Today Date is $DATE
 #Arithmetic substitution
 ADD=$(( 2+2 ))
