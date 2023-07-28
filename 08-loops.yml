@@ -1,0 +1,9 @@
+#Two basic loops
+# For and While
+
+# Based on expression
+a=10
+while [ $a -gt 0 ]; do
+  echo Hello
+done
+
