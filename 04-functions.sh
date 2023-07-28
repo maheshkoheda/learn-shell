@@ -2,7 +2,7 @@
 greeting() {
   echo Hello, Good morning
   echo Welcome to devops training
-  exit
+  return 10
   echo Good to Have you hear.
 }
 greeting
