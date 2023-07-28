@@ -17,8 +17,10 @@ echo ADD of 2+2 = $ADD
 echo Username - $USER
 #Type env in terminal for all env variables
 #To declare custom environment variables to allow access to all
-export abc=100
+# export abc=100 from CLI can make this variable printed
 echo Env Var abc - $abc
+
+
 
 
 
