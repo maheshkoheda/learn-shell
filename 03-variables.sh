@@ -20,7 +20,7 @@ echo Username - $USER
 # export abc=100 from CLI can make this variable printed
 echo Env Var abc - $abc
 
-
+# ps -ef | grep pts/0 to checl for process running in terminal or CLI.
 
 
 
