@@ -8,4 +8,7 @@ CFEngine -old tool
 Puppet- Was good
 Chef- Upgrade of puppet
 Ansible- Current leading tool
+- It is declarative. Less pain and less manual it understands without telling in cases.
+- Heterogenous and can scale to large infrastructure.
+-Supports both Push and Pull approach. Should select based on our requirment.
 
