@@ -7,3 +7,14 @@ greeting() {
 }
 greeting
 echo Function Exit Status - $?
+
+# You declare variable in main program, you can access that in function.
+# Function have its own variables.
+input(){
+  echo First Argument - $1
+  echo Second Argument - $2
+  echo All Arguments - $*
+  echo No. of Arguments - $#
+
+}
+input abc 1234
