@@ -29,5 +29,7 @@ b:
  time: 730am
  c: { course: DevOps, time: 730am }
 
+Every playbook starts with a list. It can have one or more plays.
+Host is must to have. Name keyword is optional.Either tasks/roles is must to have.
 
 
