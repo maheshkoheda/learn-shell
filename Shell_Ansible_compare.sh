@@ -14,4 +14,20 @@ Ansible- Current leading tool
 -Michael developed and opensourced. RedHat acquired Ansible.
 -Now Ansible core 2.15 version used for redhat ansible 8 is upgraded enhanced.
 
+#How ansible handles?
+Install collection->File collection -> Service collection
+Playbook to be written in YAML Markup Language
+YAML-Yet Another Markup Language
+We can have Plain,List,Map/Dictionary
+a:10
+b: [ 99, 89 ]
+b:
+ -99
+ -89
+ c:
+ course: DevOps
+ time: 730am
+ c: { course: DevOps, time: 730am }
+
+
 
