@@ -33,6 +33,6 @@ Every playbook starts with a list. It can have one or more plays.
 Host is must to have. Name keyword is optional.Either tasks/roles is must to have.
 # Ansible roles helps auto load vars,files,tasks,handlers on a known file structure.Check doc. for more.
 #1) Hashicorp Consul 2) Vault. check websites both can be used for service management and secrets management.
-
+# In AWS we have AWS System manager parameter store
 
 
