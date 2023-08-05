@@ -1,0 +1,25 @@
+# Infrastructure as a code IaaC
+Time to production is faster.
+Before terraform even small development the operations on infra was taking long time. Now very less.
+Indirectly, downtime is less/reduced almost zero.
+Only thing is we initially need more time along side with developer for Infra setup and devlopment.
+Less configuration drift when working on Dev to QA to PROD.
+Reduce cost by improving downtime so more customers can be using without issues and thus credibility increase.
+Alternate tools but not popular are pulumi, crossplane.
+Some part of terraform can be done by Ansible too like servers and parameters creation.
+Terraform uses HCL HashiCorp Configuration Language.
+SDK is offered or development kit available for people with Typscript/python/GoLang/Java too
+But we use HCL here. Example:
+resource "abc" "xyz" {
+ x=10
+ y=20
+}
+Code is in blocks. {} Here we are seeing resource block and more such blocks available.
+Resources,variable,output,data,local,module,provider are few blcoks offered by Terraform.
+Resources are under provider. Like Github provider provides repository.
+https://registry.terraform.io/browse/providers
+Around 3500 providers available with resources.
+abc is resource name offered by provider and xyz is a local resource name we gave to resource.
+x,y is called as arguments. 10,20 are inputs.
+Resource offers data after creation called as attributes.
+
