@@ -22,4 +22,13 @@ Around 3500 providers available with resources.
 abc is resource name offered by provider and xyz is a local resource name we gave to resource.
 x,y is called as arguments. 10,20 are inputs.
 Resource offers data after creation called as attributes.
+Files should end with .tf. Terraform will load all files in that location so we can make multiple files.
+Commands used : Init -> Plan -> Apply -> Destroy
+Init will understand code written and download necessary provider plugins+ 2 more things
+Plan will tell execution plan what it plans to do when actually apply.
+Create resources which are mentioned in code.
+If resource already there then TF will not do anything.
+Destroy will delete the resources which were created so far by TF.TF will not delete code.
+We will not use delete in organisations mostly.
+
 
