@@ -38,5 +38,6 @@ Ex: abc.r1.x
 Variable is block and requires only local name.
 Does not require provider name.
 Variable reference can be done using var.local_name.
+Input can be plain value, list of values or map values.
 
 
