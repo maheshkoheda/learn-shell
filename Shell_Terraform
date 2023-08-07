@@ -39,5 +39,8 @@ Variable is block and requires only local name.
 Does not require provider name.
 Variable reference can be done using var.local_name.
 Input can be plain value, list of values or map values.
+Variable data types supported are number, boolean and string.TF supports only double quotes for string.
+when variable is used in combination of string then access variable using ${}
+Ex: "Name is ${var.name}"
 
 
