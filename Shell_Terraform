@@ -30,5 +30,13 @@ Create resources which are mentioned in code.
 If resource already there then TF will not do anything.
 Destroy will delete the resources which were created so far by TF.TF will not delete code.
 We will not use delete in organisations mostly.
+Resource block we find information about in provider documentation.
+We will find resource attributes(inputs) and arguments(output) in same resource doc.
+Resource can be refered in other resource by using arguments using "provider_resource_name.local_resource_nsame.argument
+Ex: abc.r1.x
+
+Variable is block and requires only local name.
+Does not require provider name.
+Variable reference can be done using var.local_name.
 
 
