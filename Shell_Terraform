@@ -44,4 +44,8 @@ when variable is used in combination of string then access variable using ${}
 Ex: "Name is ${var.name}"
 
 Functions (In built ny Terraform)
+Various functions available for strings variables connections etc.,
+
+Data-sources
+If we want to fetch
 
