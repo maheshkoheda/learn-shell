@@ -49,3 +49,7 @@ Various functions available for strings variables connections etc.,
 Data-sources
 If we want to fetch
 
+Loops
+Do not use count as it may replace or destroy the existing resources while in loop.
+
+
