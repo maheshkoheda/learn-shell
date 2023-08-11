@@ -52,6 +52,6 @@ If we want to fetch
 Loops
 Do not use count as it may replace or destroy the existing resources while in loop.Use for-each
 Be careful around terraform as every command goes to servers resources/db etc.,
-
+Check terraform style conventions for indentation to improve code readability
 
 
