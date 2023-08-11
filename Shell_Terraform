@@ -54,4 +54,5 @@ Do not use count as it may replace or destroy the existing resources while in lo
 Be careful around terraform as every command goes to servers resources/db etc.,
 Check terraform style conventions for indentation to improve code readability
 Best practice is to iterate module not resource.
+After launching instances with modules we can call ansible using provisioner
 
