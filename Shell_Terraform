@@ -61,3 +61,4 @@ if not possible to but then individual statefile in each account.
 S3- To store and retrieve any amount of data anywhere using bucket.
 Bucket should be unique name across amazon.Store data in encryption with key management service.
 
+To avoid executing lengthy commands in for example roboshop-terrafrom switching between environments we can use Makefile and write commands in it.
