@@ -55,4 +55,9 @@ Be careful around terraform as every command goes to servers resources/db etc.,
 Check terraform style conventions for indentation to improve code readability
 Best practice is to iterate module not resource.
 After launching instances with modules we can call ansible using provisioner
+When we push the terraform file it auto creates a state file where metadata us stored.
+when we have multiple environments(dev,prod,...) then it is recommended to use terraform enterprise which is costly or use postgre for central state file creation.
+if not possible to but then individual statefile in each account.
+S3- To store and retrieve any amount of data anywhere using bucket.
+Bucket should be unique name across amazon.Store data in encryption with key management service.
 
