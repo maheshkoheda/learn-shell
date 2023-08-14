@@ -62,3 +62,10 @@ S3- To store and retrieve any amount of data anywhere using bucket.
 Bucket should be unique name across amazon.Store data in encryption with key management service.
 
 To avoid executing lengthy commands in for example roboshop-terrafrom switching between environments we can use Makefile and write commands in it.
+For backend services like catalog,user etc., all microservcies can talk to service discovery to communicate availability.
+For frontend, load balancer which is like a server hardware device,in cloud you get this like a software service will handle load between machines.Even if an instance is down.
+
+Load balancer are 3 types- Application(widely used), Network(ports based) and Gateway(network devices)
+Previous generation is classic load balancer.
+Using AWS certificate manager we can create certificates auto mode and use it.
+
