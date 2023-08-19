@@ -74,3 +74,4 @@ ASG can be attached to Load balancer.We shall give bounding numbers for instance
 
 AWS landing zone study from youtube. It is how we organize our aws accounts.
 For subnetting, we can use visual subnet calculator to check availability of hosts.
+VPC-Private network, to do this we need to create subnet which is associated with availability zone.
